@@ -1,0 +1,799 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <title>Saikiran Portfolio Website</title>
+    <meta charset="utf-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1" />
+    <link rel="stylesheet" href="css/font-awesome.css" />
+    <link rel="stylesheet" href="css/style.css" />
+  </head>
+  <body>
+    <!-- Page Loader Start -->
+    <div class="page-loader">
+      <div></div>
+      <div></div>
+      <div></div>
+    </div>
+    <!-- Page Loader End -->
+
+    <!-- Background Circles Start -->
+    <div class="bg-circles">
+      <div class="circle-1"></div>
+      <div class="circle-2"></div>
+      <div class="circle-3"></div>
+      <div class="circle-4"></div>
+    </div>
+    <!-- Background Circles End -->
+
+    <!-- Overlay Start -->
+    <div class="overlay"></div>
+
+    <!-- Overlay End -->
+
+    <!-- main start -->
+    <div class="main hidden">
+      <!-- Header Start -->
+      <header class="header">
+        <div class="container">
+          <div class="row flex-end">
+            <!--  -->
+            <div class="theme-switcher">
+              <select id="themeSwitcher">
+                <option value="theme-skylight">Sky-light</option>
+                <option value="theme-crimson">Crimson</option>
+              </select>
+            </div>
+            <!--  -->
+            <button type="button" class="nav-toggler"><span></span></button>
+            <nav class="nav">
+              <div class="nav-inner">
+                <ul>
+                  <li><a href="#home" class="nav-item link-item">home</a></li>
+                  <li><a href="#about" class="nav-item link-item">about</a></li>
+                  <li>
+                    <a href="#portfolio" class="nav-item link-item"
+                      >portfolio</a
+                    >
+                  </li>
+                  <li>
+                    <a href="#contact" class="nav-item link-item">contact</a>
+                  </li>
+                </ul>
+              </div>
+            </nav>
+          </div>
+        </div>
+      </header>
+      <!-- Header End -->
+
+      <!-- Home Section Start -->
+      <section class="home-section align-items-center" id="home">
+        <div class="container">
+          <div class="row align-items-center">
+            <div class="home-text">
+              <p>Hello I'm</p>
+              <h1>Saikiran Veerabathini</h1>
+              <h2>full stack and java developer</h2>
+              <a href="#about" class="btn link-item">more about me</a>
+              <a href="#portfolio" class="btn link-item">portfolio</a>
+            </div>
+            <div class="home-img">
+              <div class="img-box">
+                <img src="./img/saikiran-removebg.png" alt="" />
+              </div>
+            </div>
+          </div>
+        </div>
+      </section>
+      <!-- Home Section End -->
+
+      <!-- about section start -->
+      <section class="about-section sec-padding" id="about">
+        <div class="container">
+          <div class="row">
+            <div class="section-title">
+              <h1>about me</h1>
+            </div>
+            <div class="row">
+              <div class="about-img">
+                <div class="img-box">
+                  <img src="img/saikiran-2.jpg" alt="about img" />
+                </div>
+              </div>
+              <div class="about-text">
+                <p>
+                  I am a software developer with experience in designing and
+                  coding. I'm proficient with Java, and Web Technologies.
+                </p>
+                <h3>skills</h3>
+                <div class="skills">
+                  <div class="skill-item">java</div>
+                  <div class="skill-item">html</div>
+                  <div class="skill-item">css</div>
+                  <div class="skill-item">javascript</div>
+                  <div class="skill-item">bootstrap</div>
+                  <div class="skill-item">angular</div>
+                  <div class="skill-item">typescript</div>
+                  <div class="skill-item">spring boot</div>
+                  <div class="skill-item">hibernate</div>
+                  <div class="skill-item">sass</div>
+                </div>
+
+                <div class="about-tabs">
+                  <button
+                    type="button"
+                    class="tab-item active"
+                    data-target="#education"
+                  >
+                    education
+                  </button>
+                  <button
+                    type="button"
+                    class="tab-item"
+                    data-target="#experience"
+                  >
+                    experience
+                  </button>
+                </div>
+
+                <!-- Education start -->
+                <div class="tab-content active" id="education">
+                  <div class="timeline">
+                    <div class="timeline-item">
+                      <span class="date">2015 - 2019</span>
+                      <h4>
+                        bachelor of engineering - <span>SRTMUN university</span>
+                      </h4>
+                      <p>B.E Computer Science</p>
+                      <p>CGPA: 6.38</p>
+                      <p></p>
+                    </div>
+                  </div>
+                </div>
+                <!-- Education End -->
+
+                <!-- Experience start -->
+                <div class="tab-content" id="experience">
+                  <div class="timeline">
+                    <div class="timeline-item">
+                      <span class="date">2019 - 2021</span>
+                      <h4>
+                        associate software developer -
+                        <span>Planon Software Services.</span>
+                      </h4>
+                      <p>
+                        Associate Software Developer with 1.8 Years of
+                        experience. Worked as both Front-End as well as Back-End
+                        Developer.
+                      </p>
+                    </div>
+                  </div>
+                </div>
+
+                <!-- Experience End -->
+                <!-- <a href="cv.pdf" target="_blank" class="btn">download cv</a> -->
+                <a href="#about" class="btn">download CV</a>
+                <a href="#contact" class="btn link-item">contact me</a>
+              </div>
+            </div>
+          </div>
+        </div>
+      </section>
+      <!-- about section end -->
+
+      <!-- Portfolio Section start -->
+      <section class="portfolio-section sec-padding" id="portfolio">
+        <div class="container">
+          <div class="row">
+            <div class="section-title">
+              <h1>projects</h1>
+            </div>
+          </div>
+          <div class="row portfolio-projects">
+            <!-- Portfolio projects start  -->
+            <div class="portfolio">
+              <h1>portfolio</h1>
+              <div class="projects">
+                <!-- Portfolio Item Start -->
+                <div class="portfolio-item">
+                  <div class="portfolio-item-thumbnail">
+                    <img
+                      src="img/portfolio/personalPortfolioWebsite.png"
+                      alt="portfolio Item thumb"
+                    />
+                  </div>
+                  <h3 class="portfolio-item-title">
+                    Personal Portfolio website
+                  </h3>
+                  <button type="button" class="btn view-project-btn">
+                    View Project
+                  </button>
+                  <div class="portfolio-item-details">
+                    <div class="description">
+                      <p></p>
+                    </div>
+                    <div class="general-info">
+                      <ul>
+                        <li>Created - <span>5 Nov 2021</span></li>
+                        <li>
+                          Technologies used - <span>Html, Css, Javascript</span>
+                        </li>
+                        <li>
+                          View Online -
+                          <span
+                            ><a href="#" target="_blank">source code</a></span
+                          >
+                        </li>
+                      </ul>
+                    </div>
+                  </div>
+                </div>
+                <!-- Portfolio Item End -->
+              </div>
+            </div>
+            <!-- Portfolio projects end  -->
+
+            <!-- Academic projects start -->
+            <div class="academic">
+              <h1>academic</h1>
+              <div class="projects">
+                <!-- Portfolio Item Start -->
+                <div class="portfolio-item">
+                  <div class="portfolio-item-thumbnail">
+                    <img
+                      src="img/portfolio/twitterDataAnalysis.jpg"
+                      alt="portfolio Item thumb"
+                    />
+                  </div>
+                  <h3 class="portfolio-item-title">twitter data analysis</h3>
+                  <button type="button" class="btn view-project-btn">
+                    View Project
+                  </button>
+                  <div class="portfolio-item-details">
+                    <div class="description">
+                      <p>
+                        This project is intended for Streaming live tweets and
+                        the Sentimental analysis of the Twitter data. Twitter
+                        Data Analysis is the project that fetches the data from
+                        Twitter using the account holder's name and we have used
+                        tweepy API for fetching the data and doing sentimental
+                        analysis on the data in which opinion expressed through
+                        it may be positive, negative, or neutral.
+                      </p>
+                    </div>
+                    <div class="general-info">
+                      <ul>
+                        <li>Created - <span>Feb 2019</span></li>
+                        <li>Technologies used - <span>Python</span></li>
+                        <li>
+                          View Online -
+                          <span
+                            ><a href="#" target="_blank">source code</a></span
+                          >
+                        </li>
+                      </ul>
+                    </div>
+                  </div>
+                </div>
+                <!-- Portfolio Item End -->
+
+                <!-- Portfolio Item Start -->
+                <div class="portfolio-item">
+                  <div class="portfolio-item-thumbnail">
+                    <img src="img/404NotFound.png" alt="portfolio Item thumb" />
+                  </div>
+                  <h3 class="portfolio-item-title">
+                    Canteen Management System
+                  </h3>
+                  <button type="button" class="btn view-project-btn">
+                    View Project
+                  </button>
+                  <div class="portfolio-item-details">
+                    <div class="description">
+                      <p>
+                        Canteen Management System is a web application that
+                        consists of a variety of food that can be selected,
+                        placed, and ordered by user subsequently contain the
+                        payment gateway through which one can pay for the
+                        ordered food.
+                      </p>
+                    </div>
+                    <div class="general-info">
+                      <ul>
+                        <li>Created - <span>Mar 2018</span></li>
+                        <li>
+                          Technologies used - <span>Html, Css, Bootstrap</span>
+                        </li>
+                        <li>
+                          View Online -
+                          <span
+                            ><a href="#" target="_blank">source code</a></span
+                          >
+                        </li>
+                      </ul>
+                    </div>
+                  </div>
+                </div>
+                <!-- Portfolio Item End -->
+              </div>
+            </div>
+            <!-- Academic projects start -->
+
+            <!-- Javascript projects start -->
+            <div class="javascript">
+              <h1>javascript</h1>
+              <div class="projects">
+                <!-- Portfolio Item Start -->
+                <div class="portfolio-item">
+                  <div class="portfolio-item-thumbnail">
+                    <img
+                      src="img/Javascript/newYearCountdownTimer.png"
+                      alt="portfolio Item thumb"
+                    />
+                  </div>
+                  <h3 class="portfolio-item-title">New Year Countdown Timer</h3>
+                  <button type="button" class="btn view-project-btn">
+                    View Project
+                  </button>
+                  <div class="portfolio-item-details">
+                    <div class="description">
+                      <p>New Year Countdown Timer</p>
+                    </div>
+                    <div class="general-info">
+                      <ul>
+                        <li>Created - <span>Sep 2021</span></li>
+                        <li>
+                          Technologies used - <span>HTML, CSS, Javascript</span>
+                        </li>
+                        <li>
+                          View Online -
+                          <span
+                            ><a href="#" target="_blank">source code</a></span
+                          >
+                        </li>
+                      </ul>
+                    </div>
+                  </div>
+                </div>
+                <!-- Portfolio Item End -->
+
+                <!-- Portfolio Item Start -->
+                <div class="portfolio-item">
+                  <div class="portfolio-item-thumbnail">
+                    <img
+                      src="img/Javascript/githubProfileFinder.png"
+                      alt="portfolio Item thumb"
+                    />
+                  </div>
+                  <h3 class="portfolio-item-title">Github Profile Finder</h3>
+                  <button type="button" class="btn view-project-btn">
+                    View Project
+                  </button>
+                  <div class="portfolio-item-details">
+                    <div class="description">
+                      <p>Github profile finder app</p>
+                    </div>
+                    <div class="general-info">
+                      <ul>
+                        <li>Created - <span>Sep 2021</span></li>
+                        <li>
+                          Technologies used - <span>HTML, CSS, Javascript</span>
+                        </li>
+                        <li>
+                          View Online -
+                          <span
+                            ><a href="#" target="_blank">source code</a></span
+                          >
+                        </li>
+                      </ul>
+                    </div>
+                  </div>
+                </div>
+                <!-- Portfolio Item End -->
+
+                <!-- Portfolio Item Start -->
+                <div class="portfolio-item">
+                  <div class="portfolio-item-thumbnail">
+                    <img
+                      src="img/Javascript/simpleCalculator.png"
+                      alt="portfolio Item thumb"
+                    />
+                  </div>
+                  <h3 class="portfolio-item-title">Simple Calculator</h3>
+                  <button type="button" class="btn view-project-btn">
+                    View Project
+                  </button>
+                  <div class="portfolio-item-details">
+                    <div class="description">
+                      <p>Simple Calculator</p>
+                    </div>
+                    <div class="general-info">
+                      <ul>
+                        <li>Created - <span>Sep 2021</span></li>
+                        <li>
+                          Technologies used - <span>HTML, CSS, Javascript</span>
+                        </li>
+                        <li>
+                          View Online -
+                          <span
+                            ><a href="#" target="_blank">source code</a></span
+                          >
+                        </li>
+                      </ul>
+                    </div>
+                  </div>
+                </div>
+                <!-- Portfolio Item End -->
+              </div>
+            </div>
+            <!-- Javascript projects end -->
+
+            <!-- Web Designs projects start -->
+            <div class="web-designs">
+              <h1>web designs</h1>
+              <div class="projects">
+                <!-- Portfolio Item Start -->
+                <div class="portfolio-item">
+                  <div class="portfolio-item-thumbnail">
+                    <img
+                      src="img/Web Design/3d-cube-animation.png"
+                      alt="portfolio Item thumb"
+                    />
+                  </div>
+                  <h3 class="portfolio-item-title">3D Cube Animation</h3>
+                  <button type="button" class="btn view-project-btn">
+                    View Project
+                  </button>
+                  <div class="portfolio-item-details">
+                    <div class="description">
+                      <p>cube will rotate 360 deg in 3-dimensional</p>
+                    </div>
+                    <div class="general-info">
+                      <ul>
+                        <li>Created - <span>Sep 2021</span></li>
+                        <li>Technologies used - <span>HTML, CSS</span></li>
+                        <li>
+                          View Online -
+                          <span
+                            ><a href="#" target="_blank">source code</a></span
+                          >
+                        </li>
+                      </ul>
+                    </div>
+                  </div>
+                </div>
+                <!-- Portfolio Item End -->
+
+                <!-- Portfolio Item Start -->
+                <div class="portfolio-item">
+                  <div class="portfolio-item-thumbnail">
+                    <img
+                      src="img/Web Design/customButtonStyles.png"
+                      alt="portfolio Item thumb"
+                    />
+                  </div>
+                  <h3 class="portfolio-item-title">Custom Button Styles</h3>
+                  <button type="button" class="btn view-project-btn">
+                    View Project
+                  </button>
+                  <div class="portfolio-item-details">
+                    <div class="description">
+                      <p>different button styling effects</p>
+                    </div>
+                    <div class="general-info">
+                      <ul>
+                        <li>Created - <span>Sep 2021</span></li>
+                        <li>Technologies used - <span>HTML, CSS</span></li>
+                        <li>
+                          View Online -
+                          <span
+                            ><a href="#" target="_blank">source code</a></span
+                          >
+                        </li>
+                      </ul>
+                    </div>
+                  </div>
+                </div>
+                <!-- Portfolio Item End -->
+
+                <!-- Portfolio Item Start -->
+                <div class="portfolio-item">
+                  <div class="portfolio-item-thumbnail">
+                    <img
+                      src="img/Web Design/themeSwitcher.png"
+                      alt="portfolio Item thumb"
+                    />
+                  </div>
+                  <h3 class="portfolio-item-title">Theme Switcher</h3>
+                  <button type="button" class="btn view-project-btn">
+                    View Project
+                  </button>
+                  <div class="portfolio-item-details">
+                    <div class="description">
+                      <p>
+                        contains different themes. this will allow the wesite to
+                        look more cool when changing all the colors over a
+                        website by clicking a single button.
+                      </p>
+                    </div>
+                    <div class="general-info">
+                      <ul>
+                        <li>Created - <span>Oct 2021</span></li>
+                        <li>
+                          Technologies used - <span>HTML, CSS, Javascript</span>
+                        </li>
+                        <li>
+                          View Online -
+                          <span
+                            ><a href="#" target="_blank">source code</a></span
+                          >
+                        </li>
+                      </ul>
+                    </div>
+                  </div>
+                </div>
+                <!-- Portfolio Item End -->
+
+                <!-- Portfolio Item Start -->
+                <div class="portfolio-item">
+                  <div class="portfolio-item-thumbnail">
+                    <img
+                      src="img/Web Design/responsiveNavbar.png"
+                      alt="portfolio Item thumb"
+                    />
+                  </div>
+                  <h3 class="portfolio-item-title">Responsive Navbar</h3>
+                  <button type="button" class="btn view-project-btn">
+                    View Project
+                  </button>
+                  <div class="portfolio-item-details">
+                    <div class="description">
+                      <p>Responsive Navbar</p>
+                    </div>
+                    <div class="general-info">
+                      <ul>
+                        <li>Created - <span>Oct 2021</span></li>
+                        <li>
+                          Technologies used - <span>HTML, CSS, Javascript</span>
+                        </li>
+                        <li>
+                          View Online -
+                          <span
+                            ><a href="#" target="_blank">source code</a></span
+                          >
+                        </li>
+                      </ul>
+                    </div>
+                  </div>
+                </div>
+                <!-- Portfolio Item End -->
+              </div>
+            </div>
+            <!-- Web Designs projects end -->
+
+            <!-- Angular projects start -->
+            <div class="angular">
+              <h1>angular</h1>
+              <div class="projects">
+                <!-- Portfolio Item Start -->
+                <div class="portfolio-item">
+                  <div class="portfolio-item-thumbnail">
+                    <img
+                      src="img/Angular/tic-tac-toe.png"
+                      alt="portfolio Item thumb"
+                    />
+                  </div>
+                  <h3 class="portfolio-item-title">tic-tac-toe</h3>
+                  <button type="button" class="btn view-project-btn">
+                    View Project
+                  </button>
+                  <div class="portfolio-item-details">
+                    <div class="description">
+                      <p>tic-tac-toe game</p>
+                    </div>
+                    <div class="general-info">
+                      <ul>
+                        <li>Created - <span>Mar 2021</span></li>
+                        <li>
+                          Technologies used - <span>angular, bootstrap</span>
+                        </li>
+                        <li>
+                          View Online -
+                          <span
+                            ><a href="#" target="_blank">source code</a></span
+                          >
+                        </li>
+                      </ul>
+                    </div>
+                  </div>
+                </div>
+                <!-- Portfolio Item End -->
+
+                <!-- Portfolio Item Start -->
+                <div class="portfolio-item">
+                  <div class="portfolio-item-thumbnail">
+                    <img
+                      src="img/Angular/todoApp.png"
+                      alt="portfolio Item thumb"
+                    />
+                  </div>
+                  <h3 class="portfolio-item-title">todo app</h3>
+                  <button type="button" class="btn view-project-btn">
+                    View Project
+                  </button>
+                  <div class="portfolio-item-details">
+                    <div class="description">
+                      <p>Todo App</p>
+                    </div>
+                    <div class="general-info">
+                      <ul>
+                        <li>Created - <span>Mar 2021</span></li>
+                        <li>
+                          Technologies used - <span>Angular, bootstrap</span>
+                        </li>
+                        <li>
+                          View Online -
+                          <span
+                            ><a href="#" target="_blank">source code</a></span
+                          >
+                        </li>
+                      </ul>
+                    </div>
+                  </div>
+                </div>
+                <!-- Portfolio Item End -->
+              </div>
+            </div>
+            <!-- Angular projects end -->
+
+            <!-- Spring-Angular projects start -->
+            <div class="spring-angular">
+              <h1>spring + angular</h1>
+              <div class="projects">
+                <!-- Portfolio Item Start -->
+                <div class="portfolio-item">
+                  <div class="portfolio-item-thumbnail">
+                    <img
+                      src="img/Spring/employeeCrudOperations.png"
+                      alt="portfolio Item thumb"
+                    />
+                  </div>
+                  <h3 class="portfolio-item-title">Employee CRUD Operations</h3>
+                  <button type="button" class="btn view-project-btn">
+                    View Project
+                  </button>
+                  <div class="portfolio-item-details">
+                    <div class="description">
+                      <p>Angular Spring CRUD Full Stack App</p>
+                    </div>
+                    <div class="general-info">
+                      <ul>
+                        <li>Created - <span>Aug 2021</span></li>
+                        <li>
+                          Technologies used - <span>Spring, Angular</span>
+                        </li>
+                        <li>
+                          View Online -
+                          <span
+                            ><a href="#" target="_blank">source code</a></span
+                          >
+                        </li>
+                      </ul>
+                    </div>
+                  </div>
+                </div>
+                <!-- Portfolio Item End -->
+              </div>
+            </div>
+            <!-- Spring-Angular projects end -->
+          </div>
+        </div>
+      </section>
+      <!-- Portfolio Section end -->
+
+      <!-- Contact Section Start -->
+      <section class="contact-section sec-padding" id="contact">
+        <div class="container">
+          <div class="row">
+            <div class="section-title">
+              <h1>Contact me</h1>
+            </div>
+          </div>
+          <div class="row">
+            <div class="contact-form">
+              <form>
+                <div class="row">
+                  <div class="input-group">
+                    <input
+                      type="text"
+                      placeholder="Name"
+                      class="input-control"
+                      required
+                    />
+                  </div>
+                  <div class="input-group">
+                    <input
+                      type="text"
+                      placeholder="Email"
+                      class="input-control"
+                      required
+                    />
+                  </div>
+                  <div class="input-group">
+                    <input
+                      type="text"
+                      placeholder="Subject"
+                      class="input-control"
+                      required
+                    />
+                  </div>
+                  <div class="input-group">
+                    <textarea
+                      placeholder="Message"
+                      class="input-control"
+                      required
+                    ></textarea>
+                  </div>
+                  <div class="submit-btn">
+                    <button class="btn" type="button">Send message</button>
+                  </div>
+                </div>
+              </form>
+            </div>
+            <div class="contact-info">
+              <div class="contact-info-item">
+                <h3>Email</h3>
+                <p>saikiranveerabathini333@gamil.com</p>
+              </div>
+              <div class="contact-info-item">
+                <h3>Phone</h3>
+                <p>91 7038284130</p>
+              </div>
+              <div class="contact-info-item">
+                <h3>follow me</h3>
+                <div class="social-links">
+                  <a
+                    href="https://linkedin.com/in/https://www.linkedin.com/in/saikiran-veerabathini-43240b160/"
+                    target="_blank"
+                    ><i class="fab fa-linkedin"></i
+                  ></a>
+                  <a href="https://github.com/saikiranvs" target="_blank"
+                    ><i class="fab fa-github"></i
+                  ></a>
+                  <a href="#" target="_blank"><i class="fab fa-twitter"></i></a>
+                  <a
+                    href="https://instagram.com/https://www.instagram.com/theveersaya/"
+                    target="_blank"
+                    ><i class="fab fa-instagram"></i
+                  ></a>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+      </section>
+      <!-- Contact Section End -->
+    </div>
+    <!-- main End -->
+
+    <!-- Portfolio Item Details Popup Start -->
+    <div class="portfolio-popup">
+      <div class="pp-inner">
+        <div class="pp-content">
+          <div class="pp-header">
+            <button class="btn pp-close"><i class="fas fa-times"></i></button>
+            <div class="pp-thumbnail">
+              <img src="" alt="pp-thumbnail" />
+            </div>
+            <h3></h3>
+          </div>
+          <div class="pp-body"></div>
+        </div>
+      </div>
+    </div>
+
+    <!-- Portfolio Item Details Popup End -->
+
+    <script src="js/script.js"></script>
+  </body>
+</html>
